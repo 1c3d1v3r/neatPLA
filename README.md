@@ -15,6 +15,7 @@ This project includes:
 * A Xilinx ISE project written in Verilog for Xilinx XC9536XL
 * .jed file for programming the CPLD chip
 * Gerber design files for ordering your own PCBs
+* Schematic PDF
 * Bill of materials
 
 If you want a ready assembled PCB check my Amibay sales posts TBD.
