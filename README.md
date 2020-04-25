@@ -1,14 +1,14 @@
 PLA replacement circuit for Commodore 64.
 Based on dodgyPLA https://github.com/desaster/c64-dodgypla
 
-I showed the design to some fiends and they said "neat". Hence the name neatPLA :)
+I showed the design to some friends and they said "neat". Hence the name neatPLA :)
 
 What is changed compared to dodgyPLA:
-- 3.6V voltage regulator. Still within XC9536XL specs
+- 3.6V voltage regulator. Better for logic levels. Still within XC9536XL specs
 - Cool looking PCB
 - Changed pin mapping code to mach the new schematic & PCB.
-- CASRAM delay increased to 30ns. Fixes timing issues with 326298
-- Added extra delay to all outputs. Fixes a timing issue with 250425 + SwinSID
+- CASRAM delay increased to 30ns. Fixes timing issues with motherboard 326298
+- Added extra delay to all outputs. Fixes a timing issue with motherboard 250425 + SwinSID
 
 Now it is one of the most compatible PLA replacements.
 
@@ -22,4 +22,4 @@ This project includes:
 If you want a ready assembled PCB check my Amibay sales posts TBD.
 I charge 14€ + shipping for it.
 
-Parts for DIY can be as low as 3$.
+Parts for DIY can be as low as 3$ per assembled board.
