@@ -18,13 +18,13 @@ module dodgypla_core(
         input   i14,
         input   i15,
         output  reg f0,
-        output  f1,
-        output  f2,
-        output  f3,
-        output  f4,
-        output  f5,
-        output  f6,
-        output  f7
+        output  reg  f1,
+        output  reg  f2,
+        output  reg  f3,
+        output  reg  f4,
+        output  reg  f5,
+        output  reg  f6,
+        output  reg  f7
     );
 
     wire p0;
@@ -72,6 +72,31 @@ module dodgypla_core(
     (* dont_touch *) reg f0_l2;
     (* dont_touch *) reg f0_l3;
     (* dont_touch *) reg f0_l4;
+	 (* dont_touch *) reg f0_l5; 
+    (* dont_touch *) reg f0_l6; 
+	 (* dont_touch *) reg f0_l7; 
+	 (* dont_touch *) reg f0_l8; 
+	 
+	 (* dont_touch *) wire f1_l1;
+    (* dont_touch *) reg f1_l2;
+	 
+	 (* dont_touch *) wire f2_l1;
+    (* dont_touch *) reg f2_l2;
+	 
+	 (* dont_touch *) wire f3_l1;
+    (* dont_touch *) reg f3_l2;
+	 
+	 (* dont_touch *) wire f4_l1;
+    (* dont_touch *) reg f4_l2;
+	 
+	 (* dont_touch *) wire f5_l1;
+    (* dont_touch *) reg f5_l2;
+	 
+	 (* dont_touch *) wire f6_l1;
+    (* dont_touch *) reg f6_l2;
+	 
+	 (* dont_touch *) wire f7_l1;
+    (* dont_touch *) reg f7_l2;
 
     assign p0 = i1 && i2 && i5 && !i6 && i7 && !i10 && i11 && i13;
     assign p1 = i2 && i5 && i6 && i7 && !i10 && i11 && i13;
@@ -110,25 +135,25 @@ module dodgypla_core(
     assign f0_l1 = f0a || f0b;
 
     assign f1a = !(p0);
-    assign f1 = f1a;
+    assign f1_l1 = f1a;
 
     assign f2a = !(p1 || p2);
-    assign f2 = f2a;
+    assign f2_l1 = f2a;
 
     assign f3a = !(p3 || p4 || p5 || p6 || p7);
-    assign f3 = f3a;
+    assign f3_l1 = f3a;
 
     assign f4a = !(p29);
-    assign f4 = f4a;
+    assign f4_l1 = f4a;
 
     assign f5a = !(p8 || p9 || p10 || p11 || p12 || p13 || p14 || p15 || p16 || p17);
-    assign f5 = f5a;
+    assign f5_l1 = f5a;
 
     assign f6a = !(p18 || p19);
-    assign f6 = f6a;
+    assign f6_l1 = f6a;
 
     assign f7a = !(p20 || p21 || p22);
-    assign f7 = f7a;
+    assign f7_l1 = f7a;
 
     /* extra logic below to add some delay */
 
@@ -143,9 +168,83 @@ module dodgypla_core(
     always @(f0_l3) begin
         f0_l4 = !f0_l3;
     end
-
-    always @(f0_l4) begin
-        f0 = !f0_l4;
+	 /* new delay starts here. Total delay 30ns */	 
+	 always @(f0_l4) begin
+        f0_l5 = !f0_l4;
     end
+
+    always @(f0_l5) begin
+        f0_l6 = !f0_l5;
+    end
+	 
+	 always @(f0_l6) begin
+        f0_l7 = !f0_l6;
+    end
+
+    always @(f0_l7) begin
+        f0_l8 = !f0_l7;
+    end
+	 
+    always @(f0_l8) begin
+        f0 = !f0_l8;
+    end
+
+/* small delay for all other output lines */
+
+	always @(f1_l1) begin
+		f1_l2 = !f1_l1;
+	end
+
+   always @(f1_l2) begin
+		f1 = !f1_l2;
+   end
+
+	always @(f2_l1) begin
+		f2_l2 = !f2_l1;
+   end
+
+   always @(f2_l2) begin
+		f2 = !f2_l2;
+   end
+ 
+	always @(f3_l1) begin
+		f3_l2 = !f3_l1;
+   end
+
+   always @(f3_l2) begin
+		f3 = !f3_l2;
+   end
+	 
+	always @(f4_l1) begin
+		f4_l2 = !f4_l1;
+   end
+
+   always @(f4_l2) begin
+		f4 = !f4_l2;
+   end
+	 
+	always @(f5_l1) begin
+		f5_l2 = !f5_l1;
+   end
+
+   always @(f5_l2) begin
+		f5 = !f5_l2;
+   end
+	 
+	always @(f6_l1) begin
+		f6_l2 = !f6_l1;
+   end
+
+	always @(f6_l2) begin
+		f6 = !f6_l2;
+	end
+	 
+	always @(f7_l1) begin
+		f7_l2 = !f7_l1;
+	end
+
+	always @(f7_l2) begin
+		f7 = !f7_l2;
+	end
 
 endmodule
