@@ -1,9 +1,16 @@
-Based on dodgyPLA https://github.com/desaster/c64-dodgypla.
-
-The dodgyPLA HDL code is based on skoe's VHDL code, which seems unlicensed:
+Based on dodgyPLA https://github.com/desaster/c64-dodgypla
+Which is licenced as: 
+<em>The dodgyPLA HDL code is based on skoe's VHDL code, which seems unlicensed:
 https://bitbucket.org/skoe/pla
 
 Rest of the work in this repository is licensed as follows.
+
+Copyright (C) 2017 Upi Tamminen <desaster@gmail.com>
+
+This hardware design is licensed under
+Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</em>
+
+The changes and new work is licensed as follows.
 
 Copyright (C) 2020 Pasi Lassila <neatPLA@gmail.com>
 
