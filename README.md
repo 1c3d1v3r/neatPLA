@@ -6,6 +6,7 @@ I showed the design to some fiends and they said "neat". Hence the name neatPLA 
 What is changed compared to dodgyPLA:
 - 3.6V voltage regulator. Still within XC9536XL specs
 - Cool looking PCB
+- Changed pin mapping code to mach the new schematic & PCB.
 - CASRAM delay increased to 30ns. Fixes timing issues with 326298
 - Added extra delay to all outputs. Fixes a timing issue with 250425 + SwinSID
 
