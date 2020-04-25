@@ -1,7 +1,7 @@
 PLA replacement circuit for Commodore 64.
 Based on dodgyPLA https://github.com/desaster/c64-dodgypla
 
-![picture of installed neatPLA][neatPLA_installed.jpg]
+![picture of installed neatPLA](neatPLA_installed.jpg)
 
 I showed the design to some friends and they said "neat". Hence the name neatPLA :)
 
