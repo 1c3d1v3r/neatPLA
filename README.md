@@ -19,7 +19,11 @@ This project includes:
 * .jed file for programming the CPLD chip
 * Gerber design files for ordering your own PCBs
 * Schematic PDF
+
+To be added:
 * Bill of materials
+* links to parts
+* link to PCBway for PCB order
 
 If you want a ready assembled PCB check my Amibay sales posts TBD.
 I charge 14€ + shipping for it.
