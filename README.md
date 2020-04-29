@@ -16,12 +16,22 @@ Now it is one of the most compatible PLA replacements.
 
 This project includes:
 * A Xilinx ISE project written in Verilog for Xilinx XC9536XL
-* .jed file for programming the CPLD chip
+* A Xilinx iMPACT project file (I use this SW and Xilinx Platform cable USB for programming)
+* .jed and .svf file for programming the CPLD chip
 * Gerber design files for ordering your own PCBs
 * Schematic PDF
 
+Part list:
+* PCB
+* "long leg female headers" or "round pin headers" for pins
+* U1 XC9536XL-10VQG44C CPLD
+* U2 MCP1700T-3602E/TT 3.6V LDO
+* C1, C2 2.2uF X7R 0805 ceramic capacitor
+* C3 220nF X7R 0805 ceramic capacitor
+
+At the time of writing there have been a huge price jump for the XC9536XL chip. Usually they were about 1$. Now Digikey, Mouset etc. suppliers sell for 7$. I hope this is a temporary price jump caused by corona or other short term issue.
+
 To be added:
-* Bill of materials
 * links to parts
 * link to PCBway for PCB order
 
