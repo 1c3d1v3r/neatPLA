@@ -31,10 +31,7 @@ Part list:
 
 At the time of writing there have been a huge price jump for the XC9536XL chip. Usually they were about 1$. Now Digikey, Mouset etc. suppliers sell for 7$. I hope this is a temporary price jump caused by corona or other short term issue.
 
-To be added:
-* links to parts
-* link to PCBway for PCB order
-
+PCBs can be ordered with the provided gerber files. You can also buy the PCBs from [PCBway](https://www.pcbway.com/project/shareproject/neatPLA_for_Commodore_64.html)
 If you want a ready assembled PCB check my Amibay sales posts TBD.
 I charge 14€ + shipping for it.
 
