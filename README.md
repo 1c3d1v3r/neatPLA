@@ -17,7 +17,7 @@ Now it is one of the most compatible PLA replacements.
 This project includes:
 * A Xilinx ISE project written in Verilog for Xilinx XC9536XL
 * A Xilinx iMPACT project file (I use this SW and Xilinx Platform cable USB for programming)
-* .jed and .svf file for programming the CPLD chip
+* .jed and .svf file for programming the CPLD chip (subfolder _original_dodgyPLA_fix_ got fixed files for the original dodgyPLA and compatible versions)
 * Gerber design files for ordering your own PCBs
 * Schematic PDF
 
