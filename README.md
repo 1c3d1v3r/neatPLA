@@ -33,6 +33,5 @@ At the time of writing there have been a huge price jump for the XC9536XL chip. 
 
 PCBs can be ordered with the provided gerber files. You can also buy the PCBs from [PCBway](https://www.pcbway.com/project/shareproject/neatPLA_for_Commodore_64.html)
 
-If you want a ready assembled PCB check my Amibay sales posts TBD. I charge 14€ + shipping for it.
-
-Parts for DIY can be as low as 3$ per assembled board.
+If you want a ready assembled PCB check my [Amibay sales posts](http://www.amibay.com/showthread.php?111794-neatPLA-The-best-looking-PLA-for-fixing-your-C64-)
+I charge 14€ + shipping for it.
