@@ -1,4 +1,4 @@
-THis programming guide uses the cheap FT232H board. My unit cost 7€ from Aliexpress.
+This programming guide uses the cheap FT232H board. My unit cost 7€ from Aliexpress.
 1. Plug in FT232H adapteri to USB
 2. Replace Win10 FTDI default drivers:
 	- Download Zadig https://zadig.akeo.ie/
@@ -11,8 +11,8 @@ THis programming guide uses the cheap FT232H board. My unit cost 7€ from Aliex
 	- AD2 --> TDO
 	- AD3 --> TMS
 	- GND --> GND
-	- 3.3V --> 3.3V OR 5V --> 5V (verifies LDO)
-4. Download xc3sprog.zip here. It contains the xc3sprog programming tool and the neatPLA.jed file.
+	- 3.3V --> 3.3V OR 5V --> 5V. Do not connect both! Using 5V verifies the working of the LDO regulator.
+4. Download [xc3sprog.zip](https://github.com/1c3d1v3r/neatPLA/blob/master/programming/xc3sprog.zip). It contains the xc3sprog programming tool and the neatPLA.jed file.
 5. Extract .zip file
 6. Open CMD and go to extracted folder
 7. Command: xc3spog -c ft232h -v neatPLA.jed
