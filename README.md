@@ -25,7 +25,7 @@ Part list:
 * PCB
 * "long leg female headers" or "round pin headers" for pins
 * U1 XC9536XL-10VQG44C CPLD
-* U2 MCP1700T-3602E/TT 3.6V LDO
+* U2 MCP1702T-3602E/CB 3.6V LDO
 * C1, C2 2.2uF X7R 0805 ceramic capacitor
 * C3 220nF X7R 0805 ceramic capacitor
 
