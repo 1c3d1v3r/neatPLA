@@ -13,7 +13,7 @@ I also have an TQFP44 to DIL adapter which allow the programming of loose chips.
 	- Download Zadig from https://zadig.akeo.ie/ or directly [here](https://github.com/1c3d1v3r/neatPLA/blob/master/programming/zadig-2.5.exe)
 	- Launch Zadic. Select Options List all devices.
 	- Select Single RS232-HS (or other compatible FTDI device)
-	- Select libusb-win32 as the new driver and click "Reinstall Driver"
+	- Select libusb-win32 as the new driver and click "Replace Driver"
 ![picture of Zadig window](Zadig.PNG)
 3. Download [xc3sprog.zip](https://github.com/1c3d1v3r/neatPLA/blob/master/programming/xc3sprog.zip). It contains the xc3sprog.exe programming tool and the neatPLA.jed file.
 4. Extract .zip file
