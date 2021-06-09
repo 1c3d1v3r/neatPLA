@@ -1,9 +1,12 @@
 This programming guide for Windows 10 uses the cheap FT232H board. My unit cost 7€ from Aliexpress.
 ![picture of FT232H board](FT232H_board.jpg)
+
 I use it with an adapter which has test needles for the signals.
 ![picture of programming adapter](programming_adapter_assembled.jpg)
+
 I also have an TQFP44 to DIL adapter which allow the programming of loose chips.
 ![picture of programming adapter TQFP44](programming_adapter_TQFP44.jpg)
+
 1. Plug in FT232H adapteri to an USB port. Windows 10 will automatically install default drivers
 2. Replace Win10 FTDI default drivers:
 	- Download Zadig from https://zadig.akeo.ie/ or directly [here](https://github.com/1c3d1v3r/neatPLA/blob/master/programming/zadig-2.5.exe)
