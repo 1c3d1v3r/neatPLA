@@ -37,6 +37,7 @@ Long leg female headers makes a lower profile but are only compatible with leaf 
     <img src="images/pins_top.jpg">
     <img src="images/pins_bottom.jpg">
 </p><br/>
+
 PCBs can be ordered with the provided gerber files.
 You can also buy the PCBs from [PCBway](https://www.pcbway.com/project/shareproject/neatPLA_for_Commodore_64.html).
 
