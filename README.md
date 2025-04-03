@@ -36,7 +36,7 @@ Long leg female headers makes a lower profile but are only compatible with leaf 
 <p align="center">
     <img src="images/pins_top.jpg">
     <img src="images/pins_bottom.jpg">
-</p>
+</p><br/>
 PCBs can be ordered with the provided gerber files. You can also buy the PCBs from [PCBway](https://www.pcbway.com/project/shareproject/neatPLA_for_Commodore_64.html)
 
 If you want a ready assembled PCB check my [Amibay sales posts](http://www.amibay.com/showthread.php?111794-neatPLA-The-best-looking-PLA-for-fixing-your-C64-). I charge 17€ + shipping for it.
