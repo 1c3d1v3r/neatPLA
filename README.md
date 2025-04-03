@@ -24,13 +24,13 @@ This project includes:
 Part list:
 * PCB
 * "long leg female headers" or "round pin headers" for pins
-* U1 XC9536XL-10VQG44C CPLD
-* U2 MCP1702T-3602E/CB 3.6V LDO
+* U1 XC9536XL-10VQG44C CPLD (alternative XC9536XL-10VQG44I)
+* U2 MCP1702T-3602E/CB 3.6V LDO (alternative MCP1700T-3602E/TT)
 * C1, C2 2.2uF X7R 0805 ceramic capacitor
 * C3 220nF X7R 0805 ceramic capacitor
 
 PCBs can be ordered with the provided gerber files. You can also buy the PCBs from [PCBway](https://www.pcbway.com/project/shareproject/neatPLA_for_Commodore_64.html)
 
-If you want a ready assembled PCB check my [Amibay sales posts](http://www.amibay.com/showthread.php?111794-neatPLA-The-best-looking-PLA-for-fixing-your-C64-). I charge 14€ + shipping for it.
+If you want a ready assembled PCB check my [Amibay sales posts](http://www.amibay.com/showthread.php?111794-neatPLA-The-best-looking-PLA-for-fixing-your-C64-). I charge 17€ + shipping for it.
 
 Programming guide for cheap FT232H board https://github.com/1c3d1v3r/neatPLA/tree/master/programming
