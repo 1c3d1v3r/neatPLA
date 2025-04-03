@@ -19,6 +19,7 @@ This project includes:
 * A Xilinx iMPACT project file (I use this SW and Xilinx Platform cable USB for programming)
 * .jed and .svf file for programming the CPLD chip (subfolder _original_dodgyPLA_fix_ got fixed files for the original dodgyPLA and compatible versions)
 * Gerber design files for ordering your own PCBs
+* BOM and CPL files for SMD assembly service
 * Schematic PDF
 
 Part list:
