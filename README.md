@@ -31,6 +31,6 @@ Part list:
 
 PCBs can be ordered with the provided gerber files. You can also buy the PCBs from [PCBway](https://www.pcbway.com/project/shareproject/neatPLA_for_Commodore_64.html)
 
-If you want a ready assembled PCB check my [Amibay sales posts](http://www.amibay.com/showthread.php?111794-neatPLA-The-best-looking-PLA-for-fixing-your-C64-). I charge 14€ + shipping for it.
+If you want a ready assembled PCB check my [Amibay sales posts](http://www.amibay.com/showthread.php?111794-neatPLA-The-best-looking-PLA-for-fixing-your-C64-). I charge 17€ + shipping for it.
 
 Programming guide for cheap FT232H board https://github.com/1c3d1v3r/neatPLA/tree/master/programming
