@@ -5,7 +5,7 @@ I use it with an adapter which has test needles for the signals.
 
 ![picture of programming adapter](programming_adapter_assembled.jpg)
 
-I also have an TQFP44 to DIL adapter which allow the programming of loose chips.
+I also have a TQFP44 to DIL adapter which allow the programming of loose chips.
 ![picture of programming adapter TQFP44](programming_adapter_TQFP44.jpg)
 
 1. Plug in FT232H adapteri to an USB port. Windows 10 will automatically install default drivers
