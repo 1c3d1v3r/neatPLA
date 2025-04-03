@@ -1,7 +1,9 @@
 PLA replacement circuit for Commodore 64.
 Based on dodgyPLA https://github.com/desaster/c64-dodgypla
 
-![picture of installed neatPLA](neatPLA_installed_new.jpg)
+<p align="center">
+    <img src="images/neatPLA_installed_new.jpg" >
+</p>
 
 I showed the design to some friends and they said "neat". Hence the name neatPLA :)
 
@@ -30,6 +32,11 @@ Part list:
 * C1, C2 2.2uF X7R 0805 ceramic capacitor
 * C3 220nF X7R 0805 ceramic capacitor
 
+Long leg female headers makes a lower profile but are only compatible with leaf spring sockets. Round pin headers gives a taller profile but are compatible with all sockets.
+<p align="center">
+    <img src="images/pins_top.jpg">
+    <img src="images/pins_bottom.jpg">
+</p>
 PCBs can be ordered with the provided gerber files. You can also buy the PCBs from [PCBway](https://www.pcbway.com/project/shareproject/neatPLA_for_Commodore_64.html)
 
 If you want a ready assembled PCB check my [Amibay sales posts](http://www.amibay.com/showthread.php?111794-neatPLA-The-best-looking-PLA-for-fixing-your-C64-). I charge 17€ + shipping for it.
